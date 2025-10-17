@@ -16,14 +16,14 @@ local M = UnLua.Class()
 -- end
 
 function M:ReceiveBeginPlay()
-    UE4.UKismetSystemLibrary.PrintString(self, "Game BeginPlay")
+    --UE4.UKismetSystemLibrary.PrintString(self, "Game BeginPlay")
 end
 
 -- function M:ReceiveEndPlay()
 -- end
 
 function M:ReceiveTick(DeltaSeconds)
-    UE4.UKismetSystemLibrary.PrintString(self, "1111")
+    --UE4.UKismetSystemLibrary.PrintString(self, "1111")
 end
 
 -- function M:ReceiveAnyDamage(Damage, DamageType, InstigatedBy, DamageCauser)
